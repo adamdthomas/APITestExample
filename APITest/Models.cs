@@ -10,7 +10,7 @@ namespace APITest
 {
     public static class Models
     {
-
+        //Returns object representing all products from the products api
         public static ArrayOfProduct getProducts(Uri modelUri)
         {
 
@@ -25,6 +25,7 @@ namespace APITest
             return products;
         }
 
+        //Returns dictionary representing a product with a given ID
         public static Dictionary<string, string> getItemByID(ArrayOfProduct products, string id)
         {
             Dictionary<string, string> itemDic = new Dictionary<string, string>();

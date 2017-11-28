@@ -16,7 +16,7 @@ namespace APITest
         }
 
 
-        
+        //Tests that products with given IDs have correct names and descriptions. 
         [TestCase("0", "Red Truck", "A red truck")]
         [TestCase("1", "Blue Car", "A blue car")]
         [TestCase("2", "Toaster", "It doesn't drive, but it toasts")]
